@@ -12,194 +12,61 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://store.edsonlucas.com.br/">
     <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image" content="https://store.edsonlucas.com.br/assets/images/banner.jpg">
+    <meta property="og:image" content="https://store.edsonlucas.com.br/assets/assets/images/banner.jpg">
     <meta property="og:description" content="Quer comprar um celular? Descubra os melhores celulares em promoção, encontre e compre o melhor smartphone para você a um preço excelente.">
     <meta name="description" content="Quer comprar um celular? Descubra os melhores celulares em promoção, encontre e compre o melhor smartphone para você a um preço excelente.">
     <meta name="keywords" content="smartphone, celulares, iphone, android, tecnologia">
     <meta name="robots" content="index,follow">
 
+    <link rel="icon" href="assets/images/favicon.png">
+
     <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" >
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-
 
     </head>
     <body>
         <div class="tr-topbar">
             <div class="container clearfix">
-                <div class="select-language">
-                    <div class="tr-dropdown">
-                        <a data-toggle="dropdown" href="#" aria-expanded="false"><span class="change-text"><span class="tr-flag"><img src="images/others/flag.png" alt="Image" class="img-fluid"></span>RUS</span> <span class="dropdown-toggle"></span></a>
-                        <ul class="tr-dropdown-menu tr-change">
-                            <li><a href="#"><span class="tr-flag"><img src="images/others/flag.png" alt="Image" class="img-fluid"></span>USD</a></li>
-                            <li><a href="#"><span class="tr-flag"><img src="images/others/flag.png" alt="Image" class="img-fluid"></span>RUS</a></li>
-                        </ul>
-                    </div>
-                </div>
                 <div class="topbar-right">
                     <ul class="tr-list">
-                        <li><span><a href="#"><span class="icon icon-support"></span>+0123 45 67 89</a></span></li>
-                        <li><a href="#"><span class="icon icon-send"></span>support@cart.com</a></li>
-                        <li><span><a href="#"><span class="icon icon-dialog"></span>Live Chat</a></span></li>
+                        <li><span><a href="#"><span class="icon icon-support"></span>0800 533 263</a></span></li>
+                        <li><a href="#"><span class="icon icon-send"></span>suporte@edsoncelulares.com.br</a></li>
                     </ul>
-                    <div class="currency select-after">
-                        <select class="amount">
-                            <option value="#">$ USD</option>
-                            <option value="#">$ AUD</option>
-                            <option value="#">$ EUR</option>
-                            <option value="#">$ GBP</option>
-                        </select>
-                    </div>
-                    <a href="#" class="btn btn-primary">Help Centre</a>
+                    <a href="#" class="btn btn-primary"><span class="icon icon-dialog"></span> Atendimento</a>
                 </div>
             </div><!-- /.container -->
         </div><!-- /.tr-topbar -->
 
         <div class="topbar-middle">
             <div class="container clearfix">
-                <a class="tr-logo logo" href="index-2.html"><img class="img-fluid" src="images/logo.png" alt="Logo"></a>
-                <a class="tr-logo tr-logo-2" href="index-2.html"><img class="img-responsive" src="images/logo-white.png" alt="Logo"></a>
+                <a class="tr-logo logo" href="index.html">
+                  <img class="img-fluid" src="assets/images/logo.png" alt="Logo">
+                </a>
+                <a class="tr-logo tr-logo-2" href="index.html">
+                  <img class="img-responsive" src="assets/images/logo2.png" alt="Logo">
+                </a>
                 <form class="search-form" action="#" id="search" method="get">
-                    <input class="form-control" name="search" type="text" placeholder="Search this Site">
+                    <input class="form-control" name="Pesquisar" type="text" placeholder="Encontre o seu celular...">
                     <button type="submit"><i class="fa fa-search"></i></button>
                 </form><!-- /.form -->
                 <div class="right-content">
-                    <div class="tr-user">
-                        <div class="user-image">
-                            <img src="images/others/user.png" alt="Image" class="img-fluid">
-                        </div>
-                        <div class="user-option">
-                            <div class="tr-dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elizabeth
-                                <span class="caret"></span></a>
-                                <ul class="tr-dropdown-menu">
-                                    <li><a href="#">Settings</a></li>
-                                    <li><a href="#">Log Out</a></li>
-                                </ul>
-                            </div><!-- /.dropdown -->
-                        </div>
-                    </div><!-- /.tr-user -->
 
                     <ul class="tr-list cart-content">
                         <li><a href="#"><span class="icon icon-pulse"></span></a></li>
-                        <li class="tr-dropdown"><a href="#"><span class="icon icon-basket"></span> <span class="cart-number">5</span></a>
-                            <div class="tr-dropdown-menu">
-                                <ul class="tr-list">
-                                    <li class="remove-item">
-                                        <span class="remove-icon"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                        <div class="product">
-                                            <a href="details.html">
-                                                <span class="product-image">
-                                                    <img src="images/product/man1.png" alt="Image" class="img-fluid">
-                                                </span>
-                                                <span class="product-title">Zigzag Watch</span>
-                                                <span class="color">Blue</span>
-                                                <span class="price"><del>$560</del>$299</span>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="remove-item">
-                                        <span class="remove-icon"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                        <div class="product">
-                                            <a href="details.html">
-                                                <span class="product-image">
-                                                    <img src="images/product/man2.png" alt="Image" class="img-fluid">
-                                                </span>
-                                                <span class="product-title">Zigzag Watch</span>
-                                                <span class="color">Blue</span>
-                                                <span class="price"><del>$560</del>$299</span>
-                                            </a>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <div class="total-price">
-                                    <span><strong>Total Price: </strong>$598:00</span>
-                                </div>
-                                <div class="buttons">
-                                    <a class="btn btn-primary cart-button" href="shopping-cart.html">View Cart</a>
-                                    <a class="btn btn-primary" href="#">Checkout</a>
-                                </div>
-                            </div>
-                        </li>
+                        <li><a href="#"><span class="icon icon-basket"></span></a></li>
                     </ul>
                 </div>
             </div><!-- /.container -->
         </div><!-- /.topbar-middle -->
-
-        <!-- user-modal -->
-        <div class="user-modal">
-            <div id="modal-signin" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="user-account text-center">
-                                <h1>Create Account</h1>
-                                <p>Don’t worry, we won’t spam you or sell your information.</p>
-                                <form action="#" class="tr-form">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Username">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="password" class="form-control" placeholder="Password">
-                                    </div>
-                                    <button type="submit" class="btn btn-primary">Sign In</button>
-                                    <div class="forgot-password">
-                                        <a href="#">Forgot Password</a>
-                                    </div>
-                                    <ul class="tr-list social">
-                                        <li class="pull-left"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="pull-right"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    </ul>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /.modal-signin -->
-
-            <div id="modal-signup" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="user-account text-center">
-                                <h1>Create Account</h1>
-                                <p>Don’t worry, we won’t spam you or sell your information.</p>
-                                <form action="#" class="tr-form">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Username">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="password" class="form-control" placeholder="Password">
-                                    </div>
-                                    <span>By continuing, you agree to our Terms of Use and Privacy Policy.</span>
-                                    <button type="submit" class="btn btn-primary">Create account</button>
-                                    <div class="already-acount">
-                                        <a href="#">Already have an acount?</a>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /.modal-signup -->
-        </div><!-- /.user-modal -->
 
         <div class="tr-menu">
             <nav class="navbar navbar-toggleable-md">
@@ -211,105 +78,106 @@
 
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index-2.html">Brands</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="listing.html">Women</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="listing.html">Man</a>
-                                </li>
-                                <li class="nav-item tr-dropdown mega-dropdown">
-                                    <a class="nav-link" href="#">Kids</a>
-                                    <ul class="tr-dropdown-menu mega-menu" role="menu">
-                                        <li>
-                                            <span class="title">Lorem ipsum</span>
-                                           <ul>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <span class="title">Lorem ipsum</span>
-                                           <ul>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <span class="title">Lorem ipsum</span>
-                                           <ul>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <span class="title">Lorem ipsum</span>
-                                           <ul>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="listing.html">Bags</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="listing.html">Accessories</a>
-                                </li>
-                                <li class="nav-item tr-dropdown">
-                                    <a class="nav-link" href="#">Sale</a>
-                                    <ul class="tr-dropdown-menu right" role="menu">
-                                        <li class="tr-dropdown"><a href="#">Dropdown Demo</a>
-                                            <ul class="sub-menu right">
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                                <li><a href="#">Dropdown Demo</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Dropdown Demo</a></li>
-                                        <li><a href="#">Dropdown Demo</a></li>
-                                        <li><a href="#">Dropdown Demo</a></li>
-                                        <li><a href="#">Dropdown Demo</a></li>
-                                        <li><a href="#">Dropdown Demo</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item  tr-dropdown">
-                                    <a class="nav-link" href="#">Pages</a>
-                                    <ul class="tr-dropdown-menu right">
-                                        <li><a href="details.html">Shop Details</a></li>
-                                        <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                        <li><a href="delivery.html">Delivery</a></li>
-                                        <li><a href="payment.html">Payment</a></li>
-                                        <li><a href="congrats.html">Congrats</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#modal-signin">Signin</a></li>
-                                        <li><a  href="#" data-toggle="modal" data-target="#modal-signup">Signup</a></li>
-                                    </ul>
-                                </li>
+                              <li class="nav-item tr-dropdown mega-dropdown">
+                                  <a class="nav-link" href="#">iPhone</a>
+                                  <ul class="tr-dropdown-menu mega-menu" role="menu">
+                                      <li>
+                                          <span class="title">Modelos</span>
+                                         <ul>
+                                              <li><a href="#">iPhone x</a></li>
+                                              <li><a href="#">iPhone 8 Plus</a></li>
+                                              <li><a href="#">iPhone 8</a></li>
+                                              <li><a href="#">iPhone 7 Plus</a></li>
+                                              <li><a href="#">iPhone 7</a></li>
+                                          </ul>
+                                      </li>
+                                      <li>
+                                        <img src="assets/images/phones/iphone.png" />
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item tr-dropdown mega-dropdown">
+                                  <a class="nav-link" href="#">Samsung</a>
+                                  <ul class="tr-dropdown-menu mega-menu" role="menu">
+                                      <li>
+                                          <span class="title">Modelos</span>
+                                         <ul>
+                                              <li><a href="#">Samsung Galaxy S9+</a></li>
+                                              <li><a href="#">Samsung Galaxy S9</a></li>
+                                              <li><a href="#">Samsung Galaxy Note 8</a></li>
+                                              <li><a href="#">Samsung Galaxy S8+</a></li>
+                                              <li><a href="#">Samsung Galaxy S8</a></li>
+                                          </ul>
+                                      </li>
+                                      <li>
+                                        <img src="assets/images/phones/samsung.png" />
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item tr-dropdown mega-dropdown">
+                                  <a class="nav-link" href="#">Google</a>
+                                  <ul class="tr-dropdown-menu mega-menu" role="menu">
+                                      <li>
+                                          <span class="title">Modelos</span>
+                                         <ul>
+                                              <li><a href="#">Google Pixel 2 xL</a></li>
+                                              <li><a href="#">Google Pixel 2</a></li>
+                                              <li><a href="#">Google Pixel XL</a></li>
+                                              <li><a href="#">Google Pixel</a></li>
+                                          </ul>
+                                      </li>
+                                      <li>
+                                        <img src="assets/images/phones/google.jpg" />
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item tr-dropdown mega-dropdown">
+                                  <a class="nav-link" href="#">LG</a>
+                                  <ul class="tr-dropdown-menu mega-menu" role="menu">
+                                      <li>
+                                          <span class="title">Modelos</span>
+                                         <ul>
+                                              <li><a href="#">LG V30</a></li>
+                                              <li><a href="#">LG G6</a></li>
+                                          </ul>
+                                      </li>
+                                      <li>
+                                        <img src="assets/images/phones/lg.png" />
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item tr-dropdown mega-dropdown">
+                                  <a class="nav-link" href="#">Xiaomi</a>
+                                  <ul class="tr-dropdown-menu mega-menu" role="menu">
+                                      <li>
+                                          <span class="title">Modelos</span>
+                                         <ul>
+                                              <li><a href="#">Xiaomi mi 6</a></li>
+                                              <li><a href="#">Xiaomi mi mix 2</a></li>
+                                              <li><a href="#">Xiaomi mi note 3</a></li>
+                                          </ul>
+                                      </li>
+                                      <li>
+                                        <img src="assets/images/phones/xiaomi.png" />
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item tr-dropdown mega-dropdown">
+                                  <a class="nav-link" href="#">Sony</a>
+                                  <ul class="tr-dropdown-menu mega-menu" role="menu">
+                                      <li>
+                                          <span class="title">Modelos</span>
+                                         <ul>
+                                              <li><a href="#">Sony Xperia XZ2</a></li>
+                                              <li><a href="#">Sony Xperia XZ Premium</a></li>
+                                              <li><a href="#">Sony Xperia XZ1</a></li>
+                                          </ul>
+                                      </li>
+                                      <li>
+                                        <img src="assets/images/phones/sony.png" />
+                                      </li>
+                                  </ul>
+                              </li>
                             </ul>
                         </div>
                     </div><!-- /.menu-content -->
@@ -326,14 +194,9 @@
                                 <div class="col-sm-6">
                                     <div class="banner-info">
                                         <div class="info-middle">
-                                            <span class="click-cart" data-animation="animated fadeInDown">Click Cart</span>
-                                            <h1 data-animation="animated fadeInDown"><span>Athen</span> Flight Sneakers</h1>
+                                            <h1 data-animation="animated fadeInDown">Experiência única</h1>
                                             <div class="paragraphs" data-animation="animated fadeInDown">
-                                                <p>I want to share with you their experiences, the difficulties were in my way</p>
-                                            </div>
-                                            <div data-animation="animated fadeInUp" class="buy-now">
-                                                <span>$130</span>
-                                                <a class="btn btn-primary" href="#">Buy Now</a>
+                                                <p>A melhor câmera mobile do mundo acompanhado do android puro.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -341,7 +204,7 @@
                                 <div class="col-sm-6">
                                     <div class="banner-image" data-animation="animated fadeInUp">
                                         <div class="info-middle">
-                                            <img src="images/others/banner-img.png" alt="Image" class="img-fluid">
+                                            <img src="assets/images/bg/1.png" alt="Image" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -354,70 +217,9 @@
                                 <div class="col-sm-6">
                                     <div class="banner-info">
                                         <div class="info-middle">
-                                            <span class="click-cart" data-animation="animated fadeInDown">Click Cart</span>
-                                            <h1 data-animation="animated fadeInDown"><span>Athen</span> Flight Sneakers</h1>
+                                            <h1 data-animation="animated fadeInDown">Sem barreiras, sem limites</h1>
                                             <div class="paragraphs" data-animation="animated fadeInDown">
-                                                <p>I want to share with you their experiences, the difficulties were in my way</p>
-                                            </div>
-                                            <div data-animation="animated fadeInUp" class="buy-now">
-                                                <span>$130</span>
-                                                <a class="btn btn-primary" href="#">Buy Now</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div data-animation="animated fadeInDown" class="banner-image">
-                                        <div class="info-middle">
-                                            <img src="images/others/banner-img.png" alt="Image" class="img-fluid">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- /.row -->
-                        </div><!-- /.container -->
-                    </div><!-- /.carousel-item -->
-                    <div class="carousel-item">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="banner-info">
-                                        <div class="info-middle">
-                                            <span class="click-cart" data-animation="animated fadeInDown">Click Cart</span>
-                                            <h1 data-animation="animated fadeInDown"><span>Athen</span> Flight Sneakers</h1>
-                                            <div class="paragraphs" data-animation="animated fadeInDown">
-                                                <p>I want to share with you their experiences, the difficulties were in my way</p>
-                                            </div>
-                                            <div data-animation="animated fadeInUp" class="buy-now">
-                                                <span>$130</span>
-                                                <a class="btn btn-primary" href="#">Buy Now</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div data-animation="animated fadeInUp" class="banner-image">
-                                        <div class="info-middle">
-                                            <img src="images/others/banner-img.png" alt="Image" class="img-fluid">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- /.row -->
-                        </div><!-- /.container -->
-                    </div><!-- /.carousel-item -->
-                    <div class="carousel-item">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="banner-info">
-                                        <div class="info-middle">
-                                            <span class="click-cart" data-animation="animated fadeInDown">Click Cart</span>
-                                            <h1 data-animation="animated fadeInDown"><span>Athen</span> Flight Sneakers</h1>
-                                            <div class="paragraphs" data-animation="animated fadeInDown">
-                                                <p>I want to share with you their experiences, the difficulties were in my way</p>
-                                            </div>
-                                            <div data-animation="animated fadeInUp" class="buy-now">
-                                                <span>$130</span>
-                                                <a class="btn btn-primary" href="#">Buy Now</a>
+                                                <p>Tela incrível, que se estende até as laterais do telefone, formando uma superfície totalmente suave e contínua.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -425,7 +227,7 @@
                                 <div class="col-sm-6">
                                     <div data-animation="animated fadeInRight" class="banner-image">
                                         <div class="info-middle">
-                                            <img src="images/others/banner-img.png" alt="Image" class="img-fluid">
+                                            <img src="assets/images/bg/2.png" alt="Image" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -435,10 +237,8 @@
                 </div><!-- /.carousel-inner -->
                 <div class="container indicators-content">
                     <ol class="carousel-indicators">
-                        <li data-target="#home-carousel" data-slide-to="0"></li>
-                        <li data-target="#home-carousel" data-slide-to="1"  class="active"></li>
-                        <li data-target="#home-carousel" data-slide-to="2"></li>
-                        <li data-target="#home-carousel" data-slide-to="3"></li>
+                        <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#home-carousel" data-slide-to="1"></li>
                     </ol>
                 </div><!-- /.container -->
             </div><!-- /#home-carousel -->
@@ -450,752 +250,44 @@
                     <div class="row">
                         <div class="col-md-5 col-lg-4">
                             <div class="promotion promotion-left">
-                                <div class="left-content">
-                                    <h1>New Arrivalls</h1>
-                                    <span>1000+ New Accessories</span>
+                                <div class="left-content text-white">
+                                    <h1 class="text-white">Smartphones Novos</h1>
+                                    <span> Todos os dias</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-7 col-lg-8">
                             <div class="promotion promotion-right">
                                 <div class="right-content">
-                                    <h1>Discount 25% on All Clickcart</h1>
-                                    <h2>Electronics Items</h2>
-                                    <p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore, Lorem ipsum dolor sit amet .</p>
-                                    <a class="btn btn-primary" href="#">Shop Now</a>
+                                    <h1>25% de desconto em todo o site!</h1>
+                                    <h2>iPhone 7 Plus</h2>
+                                    <p>128GB Preto Matte  <br /> Desbloqueado com Garantia</p>
+                                    <div class="buy-now">
+                                        <span>R$3050</span>
+                                        <a class="btn btn-primary" href="#">Comprar</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div><!-- /.row -->
                 </div><!-- /.tr-promotion -->
 
-                <div class="tr-section products">
-                    <div class="product-category">
-                        <a href="listing.html" class="category-title">
-                            <h1>Men's Shopping</h1>
-                            <span class="category-icon"> <img src="images/others/category1.png" alt="Icon" class="img-fluid"></span>
-                        </a>
-                        <ul class="tr-list category-list">
-                            <li class="active">
-                                <span>Pants</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/1.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>T- Shirts</span>
-                                <a href="#" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/2.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$100</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Shirts</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/1.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Polo Shirts</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/1.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Watches</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/1.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Shoes & Sandals</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/1.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Belts</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/1.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li><span><a href="#">+ More Category</a></span></li>
-                        </ul>
-                    </div>
-
-                    <div class="random-product">
-                        <div class="product-slider">
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/man1.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">Zigzag Watch</span>
-                                    <span class="color">Blue</span>
-                                    <span class="price"><del>$560</del>$299</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/man2.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">ManCave Wallet</span>
-                                    <span class="color">Tan</span>
-                                    <span class="price"><del>$690</del>$200</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/man3.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">Nike Shoe</span>
-                                    <span class="color">Tan</span>
-                                    <span class="price"><del>$490</del>$150</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/man2.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">ManCave Wallet</span>
-                                    <span class="color">Tan</span>
-                                    <span class="price"><del>$690</del>$200</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.products -->
-
-                <div class="tr-section products womens-fashion">
-                    <div class="product-category">
-                        <a href="listing.html" class="category-title">
-                            <h1>Womens Fashion</h1>
-                            <span class="category-icon"> <img src="images/others/category2.png" alt="Icon" class="img-fluid"></span>
-                        </a>
-                        <ul class="tr-list category-list">
-                            <li class="active">
-                                <span>Pants</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/2.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>T- Shirts</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/2.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Shirts</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/2.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Polo Shirts</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/2.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Watches</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/2.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Shoes & Sandals</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/2.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Belts</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/2.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li><span><a href="#">+ More Category</a></span></li>
-                        </ul>
-                    </div>
-
-                    <div class="random-product">
-                        <div class="product-slider">
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/womens1.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">Wastiak Bag</span>
-                                    <span class="color">Blue</span>
-                                    <span class="price"><del>$560</del>$299</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/womens2.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">Jason Wu Shoe</span>
-                                    <span class="color">Tan</span>
-                                    <span class="price"><del>$690</del>$200</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/womens3.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">Silk Scarf</span>
-                                    <span class="color">Tan</span>
-                                    <span class="price"><del>$490</del>$150</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/womens2.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">Jason Wu Shoe</span>
-                                    <span class="color">Tan</span>
-                                    <span class="price"><del>$690</del>$200</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.products -->
-
-                <div class="tr-cta tr-section">
-                    <div class="cta-slider">
-                        <div class="cta-slider-item">
-                            <div class="cta-info-left">
-                                <div class="cta-info">
-                                    <h1>New Modern Series</h1>
-                                    <p>Comfortable, lightweight, made of composite aluminum. Perfect for both the city and the heavy road.</p>
-                                    <a class="btn btn-primary" href="#">Shop Now</a>
-                                </div>
-                            </div>
-                            <div class="cta-info-right">
-                                <div class="cta-iamage text-center">
-                                    <img src="images/others/cta-img.jpg" alt="Image" class="img-fluid">
-                                </div>
-                            </div>
-                        </div><!-- /.row -->
-                        <div class="cta-slider-item">
-                            <div class="cta-info-left">
-                                <div class="cta-info">
-                                    <h1>New Modern Series</h1>
-                                    <p>Comfortable, lightweight, made of composite aluminum. Perfect for both the city and the heavy road.</p>
-                                    <a class="btn btn-primary" href="#">Shop Now</a>
-                                </div>
-                            </div>
-                            <div class="cta-info-right">
-                                <div class="cta-iamage text-center">
-                                    <img src="images/others/cta-img.jpg" alt="Image" class="img-fluid">
-                                </div>
-                            </div>
-                        </div><!-- /.row -->
-                        <div class="cta-slider-item">
-                            <div class="cta-info-left">
-                                <div class="cta-info">
-                                    <h1>New Modern Series</h1>
-                                    <p>Comfortable, lightweight, made of composite aluminum. Perfect for both the city and the heavy road.</p>
-                                    <a class="btn btn-primary" href="#">Shop Now</a>
-                                </div>
-                            </div>
-                            <div class="cta-info-right">
-                                <div class="cta-iamage text-center">
-                                    <img src="images/others/cta-img.jpg" alt="Image" class="img-fluid">
-                                </div>
-                            </div>
-                        </div><!-- /.row -->
-                    </div><!-- /.cta-slider -->
-                </div><!-- /.tr-cta -->
-
-                <div class="tr-section products">
-                    <div class="product-category">
-                        <a href="listing.html" class="category-title">
-                            <h1>Gadget & Electronics</h1>
-                            <span class="category-icon"> <img src="images/others/category3.png" alt="Icon" class="img-fluid"></span>
-                        </a>
-                        <ul class="tr-list category-list">
-                            <li class="active">
-                                <span>Security gadgets</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/3.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Mini USB </span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/3.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Gadget</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/3.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Laptop</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/3.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Camera</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/3.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Smart Watch</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/3.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Game Console</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/3.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li><span><a href="#">+ More Category</a></span></li>
-                        </ul>
-                    </div>
-
-                    <div class="random-product">
-                        <div class="product-slider">
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/electronics1.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">Bits Headphone</span>
-                                    <span class="color">Blue</span>
-                                    <span class="price"><del>$560</del>$299</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/electronics2.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">Ipad Prot</span>
-                                    <span class="color">Tan</span>
-                                    <span class="price"><del>$690</del>$200</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/electronics3.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">Gaming Controller</span>
-                                    <span class="color">Tan</span>
-                                    <span class="price"><del>$490</del>$150</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/electronics2.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">Ipad Pro</span>
-                                    <span class="color">Tan</span>
-                                    <span class="price"><del>$690</del>$200</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.products -->
-
-                <div class="tr-section products">
-                    <div class="product-category">
-                        <a href="listing.html" class="category-title">
-                            <h1>Home & Living</h1>
-                            <span class="category-icon"> <img src="images/others/category4.png" alt="Icon" class="img-fluid"></span>
-                        </a>
-                        <ul class="tr-list category-list">
-                            <li class="active">
-                                <span>Refrigerator</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/4.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Freezer</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/4.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Crockeries</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/4.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Knife, Scissors</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/4.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Oven</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/4.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Pressure Cooker</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/4.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Game Console</span>
-                                <a href="details.html" class="category-info">
-                                    <div class="category-image">
-                                        <img src="images/product/4.jpg" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="overlay">
-                                        <h2>Blazer Pria Casual</h2>
-                                        <span class="color">White</span>
-                                        <span class="price">$1050</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li><span><a href="#">+ More Category</a></span></li>
-                        </ul>
-                    </div>
-
-                    <div class="random-product">
-                        <div class="product-slider">
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/home1.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">Zigzag Watch</span>
-                                    <span class="color">Blue</span>
-                                    <span class="price"><del>$560</del>$299</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/home2.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">malm bed frame</span>
-                                    <span class="color">Tan</span>
-                                    <span class="price"><del>$690</del>$200</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/home3.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">Nike Chair</span>
-                                    <span class="color">Tan</span>
-                                    <span class="price"><del>$490</del>$150</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <a href="details.html">
-                                    <span class="product-image">
-                                        <img src="images/product/home2.png" alt="Image" class="img-fluid">
-                                    </span>
-                                    <span class="product-title">malm bed frame</span>
-                                    <span class="color">Tan</span>
-                                    <span class="price"><del>$690</del>$200</span>
-                                </a>
-                                <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
-                                    <a href="#"><span class="icon icon-pulse"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.products -->
 
                 <div class="daily-needs">
-                    <div class="section-title text-center">
-                        <h1><span>Daily Needs Week</span></h1>
-                    </div>
                     <div class="random-product">
                         <div class="row">
-                            <div class="col-sm-6 col-lg-3">
+                            <div class="col-sm-6 col-lg-4">
                                 <div class="products">
                                     <div class="product">
                                         <div class="image-slider">
                                             <div class="product-image">
-                                                <a href="details.html"><img src="images/product/product1.png" alt="Image" class="img-fluid"></a>
-                                            </div>
-                                            <div class="product-image">
-                                                <a href="details.html"><img src="images/product/product2.png" alt="Image" class="img-fluid"></a>
-                                            </div>
-                                            <div class="product-image">
-                                                <a href="details.html"><img src="images/product/product3.png" alt="Image" class="img-fluid"></a>
+                                                <a href="#"><img src="assets/images/product/1.png" alt="Image" class="img-fluid"></a>
                                             </div>
                                         </div>
-                                        <a href="details.html">
-                                            <span class="product-title">Apple Iphone 7</span>
+                                        <a href="#">
+                                            <span class="product-title">Samsung Galaxy S8+</span>
                                             <span class="color">Dark Metal</span>
-                                            <span class="price">$149</span>
+                                            <span class="price">R$2400</span>
                                         </a>
                                         <div class="product-icon">
                                             <a href="#"><span class="icon icon-basket"></span></a>
@@ -1204,21 +296,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-lg-3">
+                            <div class="col-sm-6 col-lg-4">
                                 <div class="products">
                                     <div class="product">
                                         <div class="image-slider">
                                             <div class="product-image">
-                                                <a href="details.html"><img src="images/product/product2.png" alt="Image" class="img-fluid"></a>
-                                            </div>
-                                            <div class="product-image">
-                                                <a href="details.html"><img src="images/product/product4.png" alt="Image" class="img-fluid"></a>
+                                                <a href="#"><img src="assets/images/product/5.png" alt="Image" class="img-fluid"></a>
                                             </div>
                                         </div>
-                                        <a href="details.html">
-                                            <span class="product-title">Charging Stroller</span>
-                                            <span class="color">Dark Metal</span>
-                                            <span class="price">$149</span>
+                                        <a href="#">
+                                            <span class="product-title">Sony Xperia XZ2</span>
+                                            <span class="color">Rose Gold</span>
+                                            <span class="price">R$4000</span>
                                         </a>
                                         <div class="product-icon">
                                             <a href="#"><span class="icon icon-basket"></span></a>
@@ -1227,50 +316,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-lg-3">
+                            <div class=" col-sm-6 col-lg-4">
                                 <div class="products">
                                     <div class="product">
                                         <div class="image-slider">
                                             <div class="product-image">
-                                                <a href="details.html"><img src="images/product/product3.png" alt="Image" class="img-fluid"></a>
-                                            </div>
-                                            <div class="product-image">
-                                                <a href="details.html"><img src="images/product/product1.png" alt="Image" class="img-fluid"></a>
-                                            </div>
-                                            <div class="product-image">
-                                                <a href="details.html"><img src="images/product/product3.png" alt="Image" class="img-fluid"></a>
+                                                <a href="#"><img src="assets/images/product/4.jpg" alt="Image" class="img-fluid"></a>
                                             </div>
                                         </div>
-                                        <a href="details.html">
-                                            <span class="product-title">Zigzag Watch</span>
-                                            <span class="color">Dark Metal</span>
-                                            <span class="price">$149</span>
-                                        </a>
-                                        <div class="product-icon">
-                                            <a href="#"><span class="icon icon-basket"></span></a>
-                                            <a href="#"><span class="icon icon-pulse"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" col-sm-6 col-lg-3">
-                                <div class="products">
-                                    <div class="product">
-                                        <div class="image-slider">
-                                            <div class="product-image">
-                                                <a href="details.html"><img src="images/product/product4.png" alt="Image" class="img-fluid"></a>
-                                            </div>
-                                            <div class="product-image">
-                                                <a href="details.html"><img src="images/product/product2.png" alt="Image" class="img-fluid"></a>
-                                            </div>
-                                            <div class="product-image">
-                                                <a href="details.html"><img src="images/product/product3.png" alt="Image" class="img-fluid"></a>
-                                            </div>
-                                        </div>
-                                        <a href="details.html">
-                                            <span class="product-title">T- Shirts</span>
-                                            <span class="color">Dark Metal</span>
-                                            <span class="price">$149</span>
+                                        <a href="#">
+                                            <span class="product-title">LG V30</span>
+                                            <span class="color">Moroccan Blue</span>
+                                            <span class="price">R$3200</span>
                                         </a>
                                         <div class="product-icon">
                                             <a href="#"><span class="icon icon-basket"></span></a>
@@ -1283,28 +340,38 @@
                     </div><!-- /.random-product -->
                 </div><!-- /.products -->
 
+                <div class="tr-section tr-cta cta-2">
+                    <div class="cta-info">
+                        <h1>Google Pixel XL</h1>
+                        <p> Snapdragon 821<br /> 64GB Quite Black <br /> Desbloqueado com Garantia</p>
+                        <br />
+                        <div class="buy-now">
+                            <span>R$2300</span>
+                            <a class="btn btn-primary" href="#">Comprar</a>
+                        </div>
+                    </div>
+                </div><!-- /.product-middle -->
+
+
                 <div class="tr-brands">
                     <div class="brands-slider">
                         <div class="brand">
-                            <img src="images/brands/1.png" alt="Image" class="img-fluid">
+                            <img src="assets/images/brands/apple.png" alt="Image" class="img-fluid">
                         </div>
                         <div class="brand">
-                            <img src="images/brands/2.png" alt="Image" class="img-fluid">
+                            <img src="assets/images/brands/samsung.png" alt="Image" class="img-fluid">
                         </div>
                         <div class="brand">
-                            <img src="images/brands/3.png" alt="Image" class="img-fluid">
+                            <img src="assets/images/brands/google.png" alt="Image" class="img-fluid">
                         </div>
                         <div class="brand">
-                            <img src="images/brands/4.png" alt="Image" class="img-fluid">
+                            <img src="assets/images/brands/lg.png" alt="Image" class="img-fluid">
                         </div>
                         <div class="brand">
-                            <img src="images/brands/5.png" alt="Image" class="img-fluid">
+                            <img src="assets/images/brands/xiaomi.png" alt="Image" class="img-fluid">
                         </div>
                          <div class="brand">
-                            <img src="images/brands/6.png" alt="Image" class="img-fluid">
-                        </div>
-                         <div class="brand">
-                            <img src="images/brands/7.png" alt="Image" class="img-fluid">
+                            <img src="assets/images/brands/sony.png" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div><!-- /.tr-brands -->
@@ -1314,36 +381,28 @@
         <div class="tr-convenience">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-md-4">
                         <div class="convenience">
                             <div class="icon">
-                                <img src="images/others/icon1.png" alt="Image" class="img-fluid">
+                                <img src="assets/images/others/icon1.png" alt="Image" class="img-fluid">
                             </div>
-                            <span>Free Delivery</span>
+                            <span>Frete Gratuito</span>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-4">
                         <div class="convenience">
                             <div class="icon">
-                                <img src="images/others/icon2.png" alt="Image" class="img-fluid">
+                                <img src="assets/images/others/icon2.png" alt="Image" class="img-fluid">
                             </div>
-                            <span>Clients Discounts</span>
+                            <span>25% de desconto em todo site</span>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-4">
                         <div class="convenience">
                             <div class="icon">
-                                <img src="images/others/icon3.png" alt="Image" class="img-fluid">
+                                <img src="assets/images/others/icon3.png" alt="Image" class="img-fluid">
                             </div>
-                            <span>Return Of Goods</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="convenience">
-                            <div class="icon">
-                                <img src="images/others/icon4.png" alt="Image" class="img-fluid">
-                            </div>
-                            <span>Many Brands</span>
+                            <span>Satisfação ou seu dinhero de volta</span>
                         </div>
                     </div>
                 </div><!-- /.row -->
@@ -1355,93 +414,59 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
+                            <h3>Formas de Pagamento</h3>
+                            <br />
+                            <div class="payment-card">
+                                <ul class="tr-list">
+                                    <li><img src="assets/images/others/card1.png" alt="Image" class="img-fluid"></li>
+                                    <li><img src="assets/images/others/card2.png" alt="Image" class="img-fluid"></li>
+                                    <li><img src="assets/images/others/card3.png" alt="Image" class="img-fluid"></li>
+                                </ul>
+                            </div><!-- /.payment-card -->
+                        </div>
+                        <div class="col-sm-6">
                             <div class="left-content">
-                                <h3>Sign up for newsletter</h3>
-                                <p>Enter your email to receive relevant messaging tips and examples.</p>
-                                <form action="#">
-                                    <input class="form-control" type="email" required="required" placeholder="Enter Your Email Id">
+                                <h3>Newsletter</h3>
+                                <p>Receba as novidades em seu email.</p>
+                                <form action="#" method="post">
+                                    <input class="form-control" type="email" placeholder="Informe o seu e-mail" required>
                                     <input type="submit" class="btn">
                                 </form>
                             </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <h3>We Accept</h3>
-                            <p>Enter your email to receive relevant messaging tips and examples.</p>
-                            <div class="payment-card">
-                                <ul class="tr-list">
-                                    <li><img src="images/others/card1.png" alt="Image" class="img-fluid"></li>
-                                    <li><img src="images/others/card2.png" alt="Image" class="img-fluid"></li>
-                                    <li><img src="images/others/card3.png" alt="Image" class="img-fluid"></li>
-                                    <li><img src="images/others/card4.png" alt="Image" class="img-fluid"></li>
-                                    <li><img src="images/others/card5.png" alt="Image" class="img-fluid"></li>
-                                    <li><img src="images/others/card6.png" alt="Image" class="img-fluid"></li>
-                                </ul>
-                            </div><!-- /.payment-card -->
                         </div>
                     </div><!-- /.row -->
                 </div><!-- /.container -->
             </div><!-- /.footer-top -->
             <div class="footer-bottom">
                 <div class="container">
-                    <div class="footer-widget">
-                        <div class="footer-logo">
-                            <a href="#"><img src="images/footer-logo.png" alt="Logo" class="img-fluid"></a>
-                        </div>
-                        <span>Copyright &copy; 2017 <a href="#">Carrito</a></span>
-                        <span>Design By<a href="#"> Theme Region</a></span>
-                    </div><!-- /.footer-widget -->
-                    <div class="footer-widget">
-                        <h3>Product</h3>
-                        <ul class="tr-list">
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Customers</a></li>
-                            <li><a href="#">One-Click Apps</a></li>
-                            <li><a href="#">API</a></li>
-                        </ul>
-                    </div><!-- /.footer-widget -->
-                    <div class="footer-widget">
-                        <h3>Company</h3>
-                        <ul class="tr-list">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div><!-- /.footer-widget -->
-                    <div class="footer-widget">
-                        <h3>Help</h3>
-                        <ul class="tr-list">
-                            <li><a href="#">Getting Started</a></li>
-                            <li><a href="#">Feedback</a></li>
-                            <li><a href="#">Referral Program</a></li>
-                            <li><a href="#">Network Status</a></li>
-                            <li><a href="#">FAQ</a></li>
-                        </ul>
-                    </div><!-- /.footer-widget -->
-                    <div class="footer-widget">
-                        <h3>Social</h3>
-                        <ul class="tr-list">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
-                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i>Google</a></li>
-                        </ul>
-                    </div><!-- /.footer-widget -->
+                    <div class="row">
+                      <div class="col-md-6">
+                          <div class="footer-logo">
+                              <a href="index.html"><img src="assets/images/logo.png" alt="Logo" class="img-fluid"></a>
+                          </div>
+                          <span>&copy; 2018 <a href="#">Edson Celulares</a>.</span>
+                          <span>Todos os Direitos Reservados</span>
+                      </div><!-- /.footer-widget -->
+                      <div class="col-md-6">
+                          <div class="footer-logo currency">
+                              <img src="assets/images/certificate/1.png" alt="Logo" class="img-fluid">&nbsp;&nbsp;
+                              <img src="assets/images/certificate/2.png" alt="Logo" class="img-fluid">&nbsp;&nbsp;
+                              <img src="assets/images/certificate/3.png" alt="Logo" class="img-fluid">
+                          </div>
+                      </div><!-- /.footer-widget -->
+                    </div><!-- /.row -->
                 </div><!-- /.container -->
             </div><!-- /.footer-bottom -->
         </div><!-- /.tr-footer -->
 
 
         <!-- JS -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/tether.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/slick.min.js"></script>
-        <script src="js/jquery-ui-min.js"></script>
-        <script src="js/jquery.spinner.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/tether.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/jquery-ui-min.js"></script>
+        <script src="assets/js/jquery.spinner.min.js"></script>
+        <script src="assets/js/main.js"></script>
     </body>
-
-<!-- Mirrored from demo.themeregion.com/carrito/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Mar 2018 20:53:25 GMT -->
 </html>

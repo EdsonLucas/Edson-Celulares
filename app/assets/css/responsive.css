@@ -1,11 +1,11 @@
-/* lg */ 
+/* lg */
 @media (min-width: 1400px) {
-	
+
 }
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-	
+
 	.topbar-middle .search-form {
 		width: 370px;
 	}
@@ -76,14 +76,14 @@
 	}
 	.navbar-collapse {
 		border-top: 1px solid #fff;
-	}	
+	}
 	.navbar {
 		padding-top: 50px;
 	}
 	.navbar-toggleable-md .navbar-nav .nav-link {
 		margin-bottom: 1px;
-	} 
-	.navbar-toggleable-md .navbar-nav .nav-link, 
+	}
+	.navbar-toggleable-md .navbar-nav .nav-link,
 	.navbar .navbar-nav > li > a {
 		font-size: 14px;
 		padding: 10px 15px;
@@ -118,7 +118,7 @@
 	}
 	.tr-dropdown.mega-dropdown .tr-dropdown-menu {
 		left: 0;
-	}	
+	}
 	.tr-share-content {
 		right: 25px;
 	}
@@ -128,7 +128,7 @@
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
-	
+
 	.tr-menu .navbar-nav {
 	    margin: 0;
 	}
@@ -139,7 +139,7 @@
 	.navbar-collapse {
 		padding: 0;
 		margin:0 15px;
-	}	
+	}
 	.navbar-toggle {
 		margin-right: 0;
 	}
@@ -190,7 +190,7 @@
 	.pagination li {
 		font-size: 16px;
 	}
-	.pagination > li > a, 
+	.pagination > li > a,
 	.pagination > li > span {
 		padding: 15px 4px;
 	}
@@ -231,7 +231,7 @@
 	.mega-menu li:nth-of-type(4),
 	.mega-menu li:nth-of-type(3) {
 		margin-bottom: 0;
-	}	
+	}
 	.tr-congrats .icon {
 		font-size: 150px;
 	}
@@ -245,22 +245,22 @@
 
 
 /* xs */
-@media (max-width: 575px) { 
+@media (max-width: 575px) {
 	.tr-menu .container {
 		width: 100%;
-	}	
+	}
 	.navbar-toggler-right {
 		right: 0;
-	}	
+	}
 }
 
 
 /* xs */
 @media (max-width: 767px) {
-			
+
 	.navbar-collapse {
 		margin:0 15px;
-	}				
+	}
 	.product-category,
 	.products .random-product {
 		width: 100%;
@@ -269,7 +269,7 @@
 	.category-list > li > span {
 		width: 50%;
 	}
-	.category-list > li > span:hover::after, 
+	.category-list > li > span:hover::after,
 	.category-list > li.active > span::after {
 		right: -8px;
 	}
@@ -286,7 +286,7 @@
 	.tr-cta.cta-2 {
 		padding: 20px 30px;
 		background-image: inherit;
-	}	
+	}
 	.cta-info h1 {
 		font-size: 30px;
 		margin-top: 0;
@@ -310,7 +310,10 @@
 		margin: 15px 0;
 	}
 	.topbar-middle .search-form {
-		display: none;
+		display: inherit;
+		float: left;
+		width: 250px;
+		position: relative;
 	}
 	.cart-contents  {
 		width: 100%;
@@ -357,7 +360,7 @@
 	.pagination li {
 		font-size: 16px;
 	}
-	.pagination > li > a, 
+	.pagination > li > a,
 	.pagination > li > span {
 		padding: 15px 4px;
 	}
@@ -450,7 +453,7 @@
 	}
 	.tr-logo {
 		padding: 0;
-		margin-top: 22px;
+		margin-top: 13px;
 	}
 	.tr-cta.cta-2 .buy-now span {
 		margin: 0;
@@ -537,7 +540,7 @@
 
 /* XS Portrait */
 @media (max-width: 479px) {
-	
+
 	.tr-convenience .col-sm-3,
 	.footer-widget {
 		width: 100%;
@@ -576,4 +579,3 @@
 		float: none !important;
 	}
 }
-
