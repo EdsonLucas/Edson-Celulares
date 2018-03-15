@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Edson Celulares</title>
+    <title><?= TITULO ?></title>
     <!-- viewport meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content='1992992630981900' property='fb:app_id'>
@@ -38,8 +38,8 @@
             <div class="container clearfix">
                 <div class="topbar-right">
                     <ul class="tr-list">
-                        <li><span><a href="#"><span class="icon icon-support"></span>0800 533 263</a></span></li>
-                        <li><a href="#"><span class="icon icon-send"></span>suporte@edsoncelulares.com.br</a></li>
+                        <li><span><a href="#"><span class="icon icon-support"></span><?= TEL ?></a></span></li>
+                        <li><a href="#"><span class="icon icon-send"></span><?= MAIL ?></a></li>
                     </ul>
                     <a href="#" class="btn btn-primary"><span class="icon icon-dialog"></span> Atendimento</a>
                 </div>
@@ -48,10 +48,10 @@
 
         <div class="topbar-middle">
             <div class="container clearfix">
-                <a class="tr-logo logo" href="index.html">
+                <a class="tr-logo logo" href="index">
                   <img class="img-fluid" src="assets/images/logo.png" alt="Logo">
                 </a>
-                <a class="tr-logo tr-logo-2" href="index.html">
+                <a class="tr-logo tr-logo-2" href="index">
                   <img class="img-responsive" src="assets/images/logo2.png" alt="Logo">
                 </a>
                 <form class="search-form" action="#" id="search" method="get">
@@ -184,231 +184,9 @@
                 </div><!-- /.container -->
             </nav>
         </div><!-- /.tr-menu -->
-
-        <div class="tr-banner">
-            <div id="home-carousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item item active">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="banner-info">
-                                        <div class="info-middle">
-                                            <h1 data-animation="animated fadeInDown">Experiência única</h1>
-                                            <div class="paragraphs" data-animation="animated fadeInDown">
-                                                <p>A melhor câmera mobile do mundo acompanhado do android puro.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="banner-image" data-animation="animated fadeInUp">
-                                        <div class="info-middle">
-                                            <img src="assets/images/bg/1.png" alt="Image" class="img-fluid">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- /.row -->
-                        </div><!-- /.container -->
-                    </div><!-- /.carousel-item -->
-                    <div class="carousel-item">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="banner-info">
-                                        <div class="info-middle">
-                                            <h1 data-animation="animated fadeInDown">Sem barreiras, sem limites</h1>
-                                            <div class="paragraphs" data-animation="animated fadeInDown">
-                                                <p>Tela incrível, que se estende até as laterais do telefone, formando uma superfície totalmente suave e contínua.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div data-animation="animated fadeInRight" class="banner-image">
-                                        <div class="info-middle">
-                                            <img src="assets/images/bg/2.png" alt="Image" class="img-fluid">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- /.row -->
-                        </div><!-- /.container -->
-                    </div><!-- /.carousel-item -->
-                </div><!-- /.carousel-inner -->
-                <div class="container indicators-content">
-                    <ol class="carousel-indicators">
-                        <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#home-carousel" data-slide-to="1"></li>
-                    </ol>
-                </div><!-- /.container -->
-            </div><!-- /#home-carousel -->
-        </div><!-- /.tr-banner -->
-
-        <div class="main-wrapper">
-            <div class="container">
-                <div class="tr-promotion">
-                    <div class="row">
-                        <div class="col-md-5 col-lg-4">
-                            <div class="promotion promotion-left">
-                                <div class="left-content text-white">
-                                    <h1 class="text-white">Smartphones Novos</h1>
-                                    <span> Todos os dias</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-7 col-lg-8">
-                            <div class="promotion promotion-right">
-                                <div class="right-content">
-                                    <h1>25% de desconto em todo o site!</h1>
-                                    <h2>iPhone 7 Plus</h2>
-                                    <p>128GB Preto Matte  <br /> Desbloqueado com Garantia</p>
-                                    <div class="buy-now">
-                                        <span>R$3050</span>
-                                        <a class="btn btn-primary" href="#">Comprar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.row -->
-                </div><!-- /.tr-promotion -->
-
-
-                <div class="daily-needs">
-                    <div class="random-product">
-                        <div class="row">
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="products">
-                                    <div class="product">
-                                        <div class="image-slider">
-                                            <div class="product-image">
-                                                <a href="#"><img src="assets/images/product/1.png" alt="Image" class="img-fluid"></a>
-                                            </div>
-                                        </div>
-                                        <a href="#">
-                                            <span class="product-title">Samsung Galaxy S8+</span>
-                                            <span class="color">Dark Metal</span>
-                                            <span class="price">R$2400</span>
-                                        </a>
-                                        <div class="product-icon">
-                                            <a href="#"><span class="icon icon-basket"></span></a>
-                                            <a href="#"><span class="icon icon-pulse"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="products">
-                                    <div class="product">
-                                        <div class="image-slider">
-                                            <div class="product-image">
-                                                <a href="#"><img src="assets/images/product/5.png" alt="Image" class="img-fluid"></a>
-                                            </div>
-                                        </div>
-                                        <a href="#">
-                                            <span class="product-title">Sony Xperia XZ2</span>
-                                            <span class="color">Rose Gold</span>
-                                            <span class="price">R$4000</span>
-                                        </a>
-                                        <div class="product-icon">
-                                            <a href="#"><span class="icon icon-basket"></span></a>
-                                            <a href="#"><span class="icon icon-pulse"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=" col-sm-6 col-lg-4">
-                                <div class="products">
-                                    <div class="product">
-                                        <div class="image-slider">
-                                            <div class="product-image">
-                                                <a href="#"><img src="assets/images/product/4.jpg" alt="Image" class="img-fluid"></a>
-                                            </div>
-                                        </div>
-                                        <a href="#">
-                                            <span class="product-title">LG V30</span>
-                                            <span class="color">Moroccan Blue</span>
-                                            <span class="price">R$3200</span>
-                                        </a>
-                                        <div class="product-icon">
-                                            <a href="#"><span class="icon icon-basket"></span></a>
-                                            <a href="#"><span class="icon icon-pulse"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- /.row -->
-                    </div><!-- /.random-product -->
-                </div><!-- /.products -->
-
-                <div class="tr-section tr-cta cta-2">
-                    <div class="cta-info">
-                        <h1>Google Pixel XL</h1>
-                        <p> Snapdragon 821<br /> 64GB Quite Black <br /> Desbloqueado com Garantia</p>
-                        <br />
-                        <div class="buy-now">
-                            <span>R$2300</span>
-                            <a class="btn btn-primary" href="#">Comprar</a>
-                        </div>
-                    </div>
-                </div><!-- /.product-middle -->
-
-
-                <div class="tr-brands">
-                    <div class="brands-slider">
-                        <div class="brand">
-                            <img src="assets/images/brands/apple.png" alt="Image" class="img-fluid">
-                        </div>
-                        <div class="brand">
-                            <img src="assets/images/brands/samsung.png" alt="Image" class="img-fluid">
-                        </div>
-                        <div class="brand">
-                            <img src="assets/images/brands/google.png" alt="Image" class="img-fluid">
-                        </div>
-                        <div class="brand">
-                            <img src="assets/images/brands/lg.png" alt="Image" class="img-fluid">
-                        </div>
-                        <div class="brand">
-                            <img src="assets/images/brands/xiaomi.png" alt="Image" class="img-fluid">
-                        </div>
-                         <div class="brand">
-                            <img src="assets/images/brands/sony.png" alt="Image" class="img-fluid">
-                        </div>
-                    </div>
-                </div><!-- /.tr-brands -->
-            </div><!-- /.container -->
-        </div><!-- /.main-wrapper -->
-
-        <div class="tr-convenience">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="convenience">
-                            <div class="icon">
-                                <img src="assets/images/others/icon1.png" alt="Image" class="img-fluid">
-                            </div>
-                            <span>Frete Gratuito</span>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="convenience">
-                            <div class="icon">
-                                <img src="assets/images/others/icon2.png" alt="Image" class="img-fluid">
-                            </div>
-                            <span>25% de desconto em todo site</span>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="convenience">
-                            <div class="icon">
-                                <img src="assets/images/others/icon3.png" alt="Image" class="img-fluid">
-                            </div>
-                            <span>Satisfação ou seu dinhero de volta</span>
-                        </div>
-                    </div>
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div><!-- /.tr-convenience -->
-
+        <?php
+        $this->loadView($viewName, $viewData);
+        ?>
         <div class="tr-footer">
             <div class="footer-top">
                 <div class="container">
@@ -442,7 +220,7 @@
                     <div class="row">
                       <div class="col-md-6">
                           <div class="footer-logo">
-                              <a href="index.html"><img src="assets/images/logo.png" alt="Logo" class="img-fluid"></a>
+                              <a href="index"><img src="assets/images/logo.png" alt="Logo" class="img-fluid"></a>
                           </div>
                           <span>&copy; 2018 <a href="#">Edson Celulares</a>.</span>
                           <span>Todos os Direitos Reservados</span>
@@ -458,7 +236,6 @@
                 </div><!-- /.container -->
             </div><!-- /.footer-bottom -->
         </div><!-- /.tr-footer -->
-
 
         <!-- JS -->
         <script src="assets/js/jquery.min.js"></script>

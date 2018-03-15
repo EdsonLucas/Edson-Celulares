@@ -222,7 +222,7 @@ select.form-control:not([size]):not([multiple]) {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-image: url(../images/bg/breadcrumb-bg.jpg);
+	background-image: url(../images/bg/bbg.png);
 }
 
 .breadcrumb {
@@ -1920,7 +1920,7 @@ input[type="radio"],
 /* Details Page CSS */
 
 .products-details-info {
-	max-width: 335px;
+	max-width: 100%;
 	padding: 50px 15px;
 	position: relative;
 }
@@ -2712,4 +2712,27 @@ a, input, .tr-dropdown-menu,
 /* calendar */
 ::-webkit-inner-spin-button {
 	display: none;
+}
+
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+    background-color: #EEE;
+    border-left: 1px solid #CCC
+}
+
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #BAC0C4
+}
+
+/* Cor do indicador de rolagem - ao passar o mouse */
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: #717171
 }
