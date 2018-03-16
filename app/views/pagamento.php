@@ -3,8 +3,8 @@
         <div class="breadcrumb-info">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index">Home</a></li>
-                <li class="breadcrumb-item"><a href="carrinho-de-compras">Carrinho de Compras</a></li>
-                <li class="breadcrumb-item active">Pagamento</li>
+                <li class="breadcrumb-item">Carrinho de Compras</li>
+                <li class="breadcrumb-item"></li>
             </ol>
             <div class="page-title">
                 <h1>Pagamento</h1>
@@ -78,7 +78,7 @@
                 <span>Formas de Pagamento</span>
             </div>
 
-            <form class="contact-form" name="contact-form" method="post" action="#">
+            <form class="contact-form" method="post" action="#">
                 <div class="payment-category">
                     <div class="row">
                         <div class="col-md-6">
@@ -86,7 +86,7 @@
                                 <div class="col-md-6">
                                     <input type="radio" name="sellType1" value="credit-card" id="credit-card">
                                     <label for="credit-card">Cartão de Crédito</label>
-                                    <p>Alternatives to traditional paper methods like checks and money orders.</p>
+                                    <p>Pagamento rápido, fácil e seguro.</p>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="payment-card pull-right">
@@ -101,7 +101,7 @@
                                 <div class="col-md-6">
                                     <input type="radio" name="sellType1" value="paypal" id="paypal">
                                     <label for="paypal">Paypal</label>
-                                    <p>Alternatives to traditional paper methods like checks and money orders.</p>
+                                    <p>Alternativa mais segura para nossos clientes!</p>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="payment-card">
@@ -130,7 +130,7 @@
                             <label>Validade</label>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <input type="date" class="form-control" value="2017-10-25">
+                                    <input type="date" class="form-control" value="25-10-2018">
                                 </div>
                             </div>
                         </div>
@@ -138,12 +138,11 @@
                     <div class="col-lg-7">
                         <div class="form-group cvv-code">
                             <label for="cvv-code">Código de Segurança</label>
-                            <input type="number" class="form-control"  id="cvv-code">
+                            <input type="number" class="form-control">
                         </div>
                     </div>
                 </div>
                 <div class="buttons">
-                    <a href="carrinho-de-compras" class="btn btn-primary button-back pull-left">Voltar</a>
                     <a href="compra-finalizada" class="btn btn-primary pull-right">Finalizar Compra</a>
                 </div>
             </form>

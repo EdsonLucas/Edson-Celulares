@@ -38,23 +38,21 @@
 												<div class="row">
 														<div class="col-md-5">
 																<div class="product">
-																		<a href="samsung-galaxy-s8-plus">
-																				<span class="product-image">
-																						<img src="assets/images/product/1.png" alt="Image" class="img-fluid">
-																				</span>
-																				<span class="product-title">Samsung Galaxy S8+</span>
-																				<span class="color">Dark Metal</span>
-																		</a>
+																		<span class="product-image">
+																				<img src="<?= $produto[$_POST['id']]['img'] ?>" alt="Imagem do <?= $produto[$_POST['id']]['nome']?>" class="img-fluid">
+																		</span>
+																		<span class="product-title"><?= $produto[$_POST['id']]['nome']?></span>
+																		<span class="color"><?= $produto[$_POST['id']]['nome-cor']?></span>
 																</div><!-- /.product -->
 														</div>
 														<div class="col-md-5">
 																<div class="tr-color">
-																		<input type="radio" name="sellType" id="color2">
+																		<input type="radio" id="<?= $produto[$_POST['id']]['cor']?>">
 																		<label></label>
 																</div>
 														</div>
 														<div class="col-md-2">
-																<span class="price">R$2400</span>
+																<span class="price"><?= $produto[$_POST['id']]['preco']?></span>
 														</div>
 												</div>
 										</li>
@@ -67,7 +65,7 @@
 														<span>Total</span>
 												</div>
 												<div class="col-md-2">
-														<span class="price">R$2400</span>
+														<span class="price"><?= $produto[$_POST['id']]['preco']?></span>
 												</div>
 										</div>
 								</li>

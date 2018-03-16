@@ -1,15 +1,4 @@
-<?php
-  require_once('./models/DBprodutos.php');
 
-  if(isset($_GET['id']) && !empty($_GET['id'])) {
-    $produto = $_GET['id'];
-  }
-
-  if($produto === $dados[$produto]) {
-    $produto = $dados['samsung'];
-  }
-
-?>
 <!DOCTYPE html>
 <html lang="PT_BR">
 
@@ -66,7 +55,7 @@
                 <a class="tr-logo tr-logo-2" href="index">
                   <img class="img-responsive" src="assets/images/logo2.png" alt="Logo">
                 </a>
-                <form class="search-form" action="#" id="search" method="get">
+                <form class="search-form" action="#">
                     <input class="form-control" name="Pesquisar" type="text" placeholder="Encontre o seu celular...">
                     <button type="submit"><i class="fa fa-search"></i></button>
                 </form><!-- /.form -->

@@ -76,6 +76,8 @@ button {
 .btn.btn-primary:hover {
 	color: #326bf3;
 	background-color: #fff;
+	border: 1px solid #326bf3;
+	border-radius: 30px;
 }
 
 .btn.btn-primary:before,
@@ -1666,12 +1668,16 @@ input[type="radio"],
 	opacity: 1;
 }
 
+.tr-color input[type="radio"]#color1 + label:before {
+	background-color: #ffffff;
+}
+
 .tr-color input[type="radio"]#color2 + label:before {
 	background-color: #504f54;
 }
 
 .tr-color input[type="radio"]#color3 + label:before {
-	background-color: #986aff;
+	background-color: #86767b;
 }
 
 .tr-color input[type="radio"]#color4 + label:before {
@@ -1683,7 +1689,7 @@ input[type="radio"],
 }
 
 .tr-color input[type="radio"]#color6 + label:before {
-	background-color: #01d5d8;
+	background-color: #1f9ae2;
 }
 
 /* price slider */
@@ -2318,7 +2324,7 @@ input[type="radio"],
 .cart-item .product-image {
 	float: left;
 	width: 50px;
-	margin-right: 15px;
+	margin-right: 5px;
 	overflow: hidden;
 }
 
@@ -2707,6 +2713,11 @@ a, input, .tr-dropdown-menu,
 	-ms-transition: all 500ms;
 	-o-transition: all 500ms;
 	transition: all 500ms;
+}
+
+.btn-1 {
+	-webkit-appearance: button-bevel;
+		background-color: #fff;
 }
 
 .pdt-0 {

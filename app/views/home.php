@@ -77,7 +77,10 @@
                             <p>128GB Preto Matte  <br /> Desbloqueado com Garantia</p>
                             <div class="buy-now">
                                 <span>R$3050</span>
-                                <a class="btn btn-primary" href="#">Comprar</a>
+                                <form action="smartphone" method="post">
+                                  <input type="hidden" name="id" value="iphone">
+                                  <input class="btn btn-primary" type="submit" value="comprar">
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -94,16 +97,27 @@
                             <div class="product">
                                 <div class="image-slider">
                                     <div class="product-image">
-                                        <a href="smartphone?id=samsung"><img src="assets/images/product/1.png" alt="Image" class="img-fluid"></a>
+                                      <form action="smartphone" method="post">
+                                        <input type="hidden" name="id" value="samsung">
+                                        <button type="submit" class="btn-1">
+                                          <img src="assets/images/product/1.png" alt="Image" class="img-fluid">
+                                        </button>
+                                      </form>
                                     </div>
                                 </div>
-                                <a href="smartphone?id=samsung">
-                                    <span class="product-title">Samsung Galaxy S8+</span>
-                                    <span class="color">Dark Metal</span>
-                                    <span class="price">R$2400</span>
-                                </a>
+                                <form action="smartphone" method="post">
+                                  <input type="hidden" name="id" value="samsung">
+                                    <button type="submit" class="btn-1">
+                                        <span class="product-title">Samsung Galaxy S8+</span>
+                                        <span class="color">Dark Metal</span>
+                                        <span class="price">R$2400</span>
+                                    </button>
+                                </form>
                                 <div class="product-icon">
-                                    <a href="carrinho-de-compras"><span class="icon icon-basket"></span></a>
+                                    <form action="carrinho-de-compras" method="post">
+                                        <input type="hidden" name="id" value="samsung">
+                                        <button type="submit" class="btn-1"><span class="icon icon-basket"></span></button>
+                                    </form>
                                     <a href="#"><span class="icon icon-pulse"></span></a>
                                 </div>
                             </div>
@@ -114,16 +128,27 @@
                             <div class="product">
                                 <div class="image-slider">
                                     <div class="product-image">
-                                        <a href="#"><img src="assets/images/product/5.png" alt="Image" class="img-fluid"></a>
+                                      <form action="smartphone" method="post">
+                                        <input type="hidden" name="id" value="sony">
+                                        <button type="submit" class="btn-1">
+                                          <img src="assets/images/product/5.png" alt="Image" class="img-fluid">
+                                        </button>
+                                      </form>
                                     </div>
                                 </div>
-                                <a href="#">
-                                    <span class="product-title">Sony Xperia XZ2</span>
-                                    <span class="color">Rose Gold</span>
-                                    <span class="price">R$4000</span>
-                                </a>
+                                <form action="smartphone" method="post">
+                                    <input type="hidden" name="id" value="sony">
+                                    <button type="submit" class="btn-1">
+                                        <span class="product-title">Sony Xperia XZ2</span>
+                                        <span class="color">Rose Gold</span>
+                                        <span class="price">R$4000</span>
+                                    </button>
+                                </form>
                                 <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
+                                    <form action="carrinho-de-compras" method="post">
+                                        <input type="hidden" name="id" value="sony">
+                                        <button type="submit" class="btn-1"><span class="icon icon-basket"></span></button>
+                                    </form>
                                     <a href="#"><span class="icon icon-pulse"></span></a>
                                 </div>
                             </div>
@@ -134,16 +159,27 @@
                             <div class="product">
                                 <div class="image-slider">
                                     <div class="product-image">
-                                        <a href="#"><img src="assets/images/product/4.jpg" alt="Image" class="img-fluid"></a>
+                                      <form action="smartphone" method="post">
+                                        <input type="hidden" name="id" value="lg">
+                                        <button type="submit" class="btn-1">
+                                          <img src="assets/images/product/4.jpg" alt="Image" class="img-fluid">
+                                        </button>
+                                      </form>
                                     </div>
                                 </div>
-                                <a href="#">
-                                    <span class="product-title">LG V30</span>
-                                    <span class="color">Moroccan Blue</span>
-                                    <span class="price">R$3200</span>
-                                </a>
+                                <form action="smartphone" method="post">
+                                    <input type="hidden" name="id" value="sony">
+                                    <button type="submit" class="btn-1">
+                                        <span class="product-title">LG V30</span>
+                                        <span class="color">Moroccan Blue</span>
+                                        <span class="price">R$3200</span>
+                                    </button>
+                                </form>
                                 <div class="product-icon">
-                                    <a href="#"><span class="icon icon-basket"></span></a>
+                                    <form action="carrinho-de-compras" method="post">
+                                        <input type="hidden" name="id" value="lg">
+                                        <button type="submit" class="btn-1"><span class="icon icon-basket"></span></button>
+                                    </form>
                                     <a href="#"><span class="icon icon-pulse"></span></a>
                                 </div>
                             </div>
@@ -160,7 +196,10 @@
                 <br />
                 <div class="buy-now">
                     <span>R$2300</span>
-                    <a class="btn btn-primary" href="#">Comprar</a>
+                    <form action="smartphone" method="post">
+                      <input type="hidden" name="id" value="google">
+                      <input class="btn btn-primary" type="submit" value="comprar">
+                    </form>
                 </div>
             </div>
         </div><!-- /.product-middle -->
