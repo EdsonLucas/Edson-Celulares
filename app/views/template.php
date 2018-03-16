@@ -21,16 +21,17 @@
 
     <link rel="icon" href="assets/images/favicon.png">
 
-    <!-- CSS -->
+    <!-- Remember put ../ -->
+    <!-- build:css style.css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/fonts.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/fonts.min.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- endbuild -->
 
-    <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 
     </head>
@@ -238,13 +239,15 @@
             </div><!-- /.footer-bottom -->
         </div><!-- /.tr-footer -->
 
-        <!-- JS -->
+        <!-- Remember put ../ -->
+        <!-- build:js lib.js -->
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/tether.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/slick.min.js"></script>
-        <script src="assets/js/jquery-ui-min.js"></script>
+        <script src="assets/js/jquery-ui.min.js"></script>
         <script src="assets/js/jquery.spinner.min.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="assets/js/main.min.js"></script>
+        <!-- endbuild -->
     </body>
 </html>

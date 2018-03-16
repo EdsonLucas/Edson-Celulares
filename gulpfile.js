@@ -5,6 +5,7 @@ var gulp = require('gulp'),
 	htmlReplace = require('gulp-html-replace'),
 	compress = require('gulp-uglify'),
 	usemin = require('gulp-usemin'),
+	rename = require('gulp-rename');
 	cssmin = require('gulp-cssmin'),
 	browserSync = require('browser-sync'),
 	jshint = require('gulp-jshint'),
@@ -15,7 +16,7 @@ gulp.task('default', ['copy'], function() {
 
 	gulp.start('build-img', 'usemin');
 
-	// gulp.start('build-img', 'concat-js', 'replace-html-js');
+	// gulp.start('build-img', 'css-min', 'concat-js', 'replace-html-js');
 
 });
 
@@ -38,13 +39,13 @@ gulp.task('build-img', function() {
 
 	gulp.src('build/assets/images/**/*')
 		.pipe(imagemin())
-		.pipe(gulp.dest('build/assets/images'));
+		.pipe(gulp.dest('build/assets/images/'));
 
 });
 
 gulp.task('usemin', function() {
 
-	gulp.src('build/view/index.php')
+	gulp.src('app/views/template.php')
 		.pipe(usemin( {
 			'js': [compress, clean({force: true})],
 			'css': [cssmin, clean({force: true})]
@@ -83,21 +84,36 @@ gulp.task('server', function() {
 
 });
 
-// gulp.task('concat-js', function() {
+gulp.task('css-min', function () {
+    gulp.src('app/assets/css/**/*.css')
+        .pipe(cssmin())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('build/assets/css/'));
+});
 
-// 	gulp.src('build/assets/js/**/*.js')
-// 		.pipe(concat('all.js'))
-// 		.pipe(compress())
-// 		.pipe(gulp.dest('build/assets/js'));
+gulp.task('concat-js', function() {
 
-// });
+	gulp.src('app/assets/js/**/*.js')
+		.pipe(concat('lib.js'))
+		.pipe(compress())
+		.pipe(gulp.dest('build/assets/js'));
 
-// gulp.task('replace-html-js', function() {
+});
 
-// 	gulp.src('build/view/index.php')
-// 		.pipe(htmlReplace({
-// 			js: 'assets/js/all.js'
-// 		}))
-// 		.pipe(gulp.dest('build/view'));
+gulp.task('js-min', function() {
 
-// });
+	gulp.src('app/assets/js/**/*.js')
+		.pipe(compress())
+		.pipe(rename({suffix: '.min'}))
+		.pipe(gulp.dest('build/assets/js/'));
+});
+
+gulp.task('replace-html-js', function() {
+
+	gulp.src('app/views/template.php')
+		.pipe(htmlReplace({
+			js: 'assets/js/lib.js'
+		}))
+		.pipe(gulp.dest('build/views/'));
+
+});
