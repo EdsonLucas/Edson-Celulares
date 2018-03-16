@@ -94,10 +94,10 @@
                             <div class="product">
                                 <div class="image-slider">
                                     <div class="product-image">
-                                        <a href="samsung-galaxy-s8-plus"><img src="assets/images/product/1.png" alt="Image" class="img-fluid"></a>
+                                        <a href="smartphone?id=samsung"><img src="assets/images/product/1.png" alt="Image" class="img-fluid"></a>
                                     </div>
                                 </div>
-                                <a href="samsung-galaxy-s8-plus">
+                                <a href="smartphone?id=samsung">
                                     <span class="product-title">Samsung Galaxy S8+</span>
                                     <span class="color">Dark Metal</span>
                                     <span class="price">R$2400</span>
