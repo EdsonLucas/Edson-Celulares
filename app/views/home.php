@@ -97,6 +97,7 @@
                             <div class="product">
                                 <div class="image-slider">
                                     <div class="product-image">
+<<<<<<< HEAD
                                       <form action="smartphone" method="post">
                                         <input type="hidden" name="id" value="samsung">
                                         <button type="submit" class="btn-1">
@@ -113,6 +114,16 @@
                                         <span class="price">R$2400</span>
                                     </button>
                                 </form>
+=======
+                                        <a href="smartphone?id=samsung"><img src="assets/images/product/1.png" alt="Image" class="img-fluid"></a>
+                                    </div>
+                                </div>
+                                <a href="smartphone?id=samsung">
+                                    <span class="product-title">Samsung Galaxy S8+</span>
+                                    <span class="color">Dark Metal</span>
+                                    <span class="price">R$2400</span>
+                                </a>
+>>>>>>> b3c5f214643d0192e17013200273ea09a7c04cb8
                                 <div class="product-icon">
                                     <form action="carrinho-de-compras" method="post">
                                         <input type="hidden" name="id" value="samsung">

@@ -7,7 +7,11 @@
                 <li class="breadcrumb-item"></li>
             </ol>
             <div class="page-title">
+<<<<<<< HEAD:app/views/smartphone.php
                 <h1><?= $produto[$_POST['id']]['nome'] ?></h1>
+=======
+                <h1><?php echo $produto[$_GET['id']['nome']] ?></h1>
+>>>>>>> b3c5f214643d0192e17013200273ea09a7c04cb8:app/views/smartphone.php
             </div>
         </div>
     </div><!-- /.container -->

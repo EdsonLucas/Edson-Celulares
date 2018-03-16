@@ -18,6 +18,67 @@
         <div class="tr-section products-description">
             <div class="cart-title">
                 <span>Dados Pessoais</span>
+<<<<<<< HEAD
+=======
+            </div>
+
+            <form class="contact-form" name="contact-form" method="post" action="#">
+                <ul class="tr-list delivery-category">
+                    <li>
+                        <input type="radio" name="sellType" value="Frete Gratuito" checked>
+                        <label>Frete Gratuito</label>
+                    </li>
+                </ul>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Nome</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Telefone</label>
+                            <input type="number" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group address">
+                            <label>Endereço</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Cidade</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="zip">Código Postal</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div><!-- /.products-description -->
+
+    </div><!-- /.container -->
+</div><!-- /.main-wrapper -->
+
+<div class="main-wrapper pdt-0">
+    <div class="container">
+        <div class="tr-section products-description">
+            <div class="cart-title">
+                <span>Formas de Pagamento</span>
+>>>>>>> b3c5f214643d0192e17013200273ea09a7c04cb8
             </div>
 
             <form class="contact-form" name="contact-form" method="post" action="#">
