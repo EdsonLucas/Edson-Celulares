@@ -1,19 +1,4 @@
-<<<<<<< HEAD
 
-=======
-<?php
-  require_once('./models/DBprodutos.php');
-
-  if(isset($_GET['id']) && !empty($_GET['id'])) {
-    $produto = $_GET['id'];
-  }
-
-  if($produto === $dados[$produto]) {
-    $produto = $dados['samsung'];
-  }
-
-?>
->>>>>>> b3c5f214643d0192e17013200273ea09a7c04cb8
 <!DOCTYPE html>
 <html lang="PT_BR">
 
