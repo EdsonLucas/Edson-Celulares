@@ -6,7 +6,7 @@
                 <li class="breadcrumb-item active">Samsung</li>
             </ol>
             <div class="page-title">
-                <h1>Sasumg Galaxy S8+</h1>
+                <h1><?php echo $produto[$_GET['id']['nome']] ?></h1>
             </div>
         </div>
     </div><!-- /.container -->

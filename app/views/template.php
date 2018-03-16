@@ -1,3 +1,15 @@
+<?php
+  require_once('./models/DBprodutos.php');
+
+  if(isset($_GET['id']) && !empty($_GET['id'])) {
+    $produto = $_GET['id'];
+  }
+
+  if($produto === $dados[$produto]) {
+    $produto = $dados['samsung'];
+  }
+
+?>
 <!DOCTYPE html>
 <html lang="PT_BR">
 
