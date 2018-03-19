@@ -39,7 +39,7 @@
 														<div class="col-md-5">
 																<div class="product">
 																		<span class="product-image">
-																				<img src="<?= $produto[$_POST['id']]['img'] ?>" alt="Imagem do <?= $produto[$_POST['id']]['nome']?>" class="img-fluid">
+																				<img src="<?= $produto[$_POST['id']]['img'] ?>" alt="<?= $produto[$_POST['id']]['nome']?>" class="img-fluid">
 																		</span>
 																		<span class="product-title"><?= $produto[$_POST['id']]['nome']?></span>
 																		<span class="color"><?= $produto[$_POST['id']]['nome-cor']?></span>

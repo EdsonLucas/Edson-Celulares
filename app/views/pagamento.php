@@ -20,10 +20,10 @@
                 <span>Dados Pessoais</span>
             </div>
 
-            <form class="contact-form" name="contact-form" method="post" action="#">
+            <form class="contact-form" method="post" action="#">
                 <ul class="tr-list delivery-category">
                     <li>
-                        <input type="radio" name="sellType" value="Frete Gratuito" checked>
+                        <input type="radio" value="Frete Gratuito" checked>
                         <label>Frete Gratuito</label>
                     </li>
                 </ul>
@@ -84,14 +84,14 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="radio" name="sellType1" value="credit-card" id="credit-card">
+                                    <input type="radio">
                                     <label for="credit-card">Cartão de Crédito</label>
                                     <p>Pagamento rápido, fácil e seguro.</p>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="payment-card pull-right">
-                                        <span><img src="assets/images/others/visa-logo.png" alt="Logo" class="img-fluid"></span>
-                                        <span><img src="assets/images/others/mastercard-logo.png" alt="Logo" class="img-fluid"></span>
+                                        <span><img src="assets/images/others/visa-logo.png" alt="Visa" class="img-fluid"></span>
+                                        <span><img src="assets/images/others/mastercard-logo.png" alt="Mastercard" class="img-fluid"></span>
                                     </div>
                                 </div>
                             </div>
@@ -99,13 +99,13 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="radio" name="sellType1" value="paypal" id="paypal">
+                                    <input type="radio">
                                     <label for="paypal">Paypal</label>
                                     <p>Alternativa mais segura para nossos clientes!</p>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="payment-card">
-                                        <img src="assets/images/others/paypal-logo.png" alt="Logo" class="img-fluid">
+                                        <img src="assets/images/others/paypal-logo.png" alt="Paypal" class="img-fluid">
                                     </div>
                                 </div>
                             </div>

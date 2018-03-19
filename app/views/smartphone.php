@@ -23,7 +23,7 @@
                             <div class="product-details-slider">
                                 <div class="product">
                                     <br />
-                                    <img src="<?= $produto[$_POST['id']]['img']?>" alt="Imagem do <?= $produto[$_POST['id']]['nome']?>" class="img-fluid">
+                                    <img src="<?= $produto[$_POST['id']]['img']?>" alt="<?= $produto[$_POST['id']]['nome']?>" class="img-fluid">
                                 </div>
                             </div><!-- /.product-details-slider -->
                         </div>

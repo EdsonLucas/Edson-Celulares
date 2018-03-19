@@ -1,6 +1,6 @@
 <div class="tr-banner">
     <div id="home-carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner">
             <div class="carousel-item item active">
                 <div class="container">
                     <div class="row">
@@ -100,7 +100,7 @@
                                       <form action="smartphone" method="post">
                                         <input type="hidden" name="id" value="samsung">
                                         <button type="submit" class="btn-1">
-                                          <img src="assets/images/product/1.png" alt="Image" class="img-fluid">
+                                          <img src="assets/images/product/1.png" alt="Samsung Galaxy S8+" class="img-fluid">
                                         </button>
                                       </form>
                                     </div>
@@ -131,7 +131,7 @@
                                       <form action="smartphone" method="post">
                                         <input type="hidden" name="id" value="sony">
                                         <button type="submit" class="btn-1">
-                                          <img src="assets/images/product/5.png" alt="Image" class="img-fluid">
+                                          <img src="assets/images/product/5.png" alt="Sony Xperia XZ2" class="img-fluid">
                                         </button>
                                       </form>
                                     </div>
@@ -162,7 +162,7 @@
                                       <form action="smartphone" method="post">
                                         <input type="hidden" name="id" value="lg">
                                         <button type="submit" class="btn-1">
-                                          <img src="assets/images/product/4.jpg" alt="Image" class="img-fluid">
+                                          <img src="assets/images/product/4.jpg" alt="LG V30" class="img-fluid">
                                         </button>
                                       </form>
                                     </div>
@@ -208,22 +208,22 @@
         <div class="tr-brands">
             <div class="brands-slider">
                 <div class="brand">
-                    <img src="assets/images/brands/apple.png" alt="Image" class="img-fluid">
+                    <img src="assets/images/brands/apple.png" alt="Apple logo" class="img-fluid">
                 </div>
                 <div class="brand">
-                    <img src="assets/images/brands/samsung.png" alt="Image" class="img-fluid">
+                    <img src="assets/images/brands/samsung.png" alt="Samsung logo" class="img-fluid">
                 </div>
                 <div class="brand">
-                    <img src="assets/images/brands/google.png" alt="Image" class="img-fluid">
+                    <img src="assets/images/brands/google.png" alt="Google logo" class="img-fluid">
                 </div>
                 <div class="brand">
-                    <img src="assets/images/brands/lg.png" alt="Image" class="img-fluid">
+                    <img src="assets/images/brands/lg.png" alt="LG logo" class="img-fluid">
                 </div>
                 <div class="brand">
-                    <img src="assets/images/brands/xiaomi.png" alt="Image" class="img-fluid">
+                    <img src="assets/images/brands/xiaomi.png" alt="Xiaomi logo" class="img-fluid">
                 </div>
                  <div class="brand">
-                    <img src="assets/images/brands/sony.png" alt="Image" class="img-fluid">
+                    <img src="assets/images/brands/sony.png" alt="Sony logo" class="img-fluid">
                 </div>
             </div>
         </div><!-- /.tr-brands -->
@@ -236,7 +236,7 @@
             <div class="col-md-4">
                 <div class="convenience">
                     <div class="icon">
-                        <img src="assets/images/others/icon1.png" alt="Image" class="img-fluid">
+                        <img src="assets/images/others/icon1.png" alt="Ícone de frete gratuito" class="img-fluid">
                     </div>
                     <span>Frete Gratuito</span>
                 </div>
@@ -244,7 +244,7 @@
             <div class="col-md-4">
                 <div class="convenience">
                     <div class="icon">
-                        <img src="assets/images/others/icon2.png" alt="Image" class="img-fluid">
+                        <img src="assets/images/others/icon2.png" alt="Ícone de 25% de desconto em todo o site" class="img-fluid">
                     </div>
                     <span>25% de desconto em todo site</span>
                 </div>
@@ -252,7 +252,7 @@
             <div class="col-md-4">
                 <div class="convenience">
                     <div class="icon">
-                        <img src="assets/images/others/icon3.png" alt="Image" class="img-fluid">
+                        <img src="assets/images/others/icon3.png" alt="Ícone de satisfação ou seu dinheiro de volta" class="img-fluid">
                     </div>
                     <span>Satisfação ou seu dinhero de volta</span>
                 </div>

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="PT_BR">
 
@@ -12,8 +11,6 @@
     <meta property="og:locale" content="pt_BR">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://store.edsonlucas.com.br/">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image" content="https://store.edsonlucas.com.br/assets/assets/images/banner.jpg">
     <meta property="og:description" content="Quer comprar um celular? Descubra os melhores celulares em promoção, encontre e compre o melhor smartphone para você a um preço excelente.">
     <meta name="description" content="Quer comprar um celular? Descubra os melhores celulares em promoção, encontre e compre o melhor smartphone para você a um preço excelente.">
     <meta name="keywords" content="smartphone, celulares, iphone, android, tecnologia">
@@ -51,10 +48,10 @@
         <div class="topbar-middle">
             <div class="container clearfix">
                 <a class="tr-logo logo" href="index">
-                  <img class="img-fluid" src="assets/images/logo.png" alt="Logo">
+                  <img class="img-fluid" src="assets/images/logo.png" alt="Edson Celulares logo">
                 </a>
                 <a class="tr-logo tr-logo-2" href="index">
-                  <img class="img-responsive" src="assets/images/logo2.png" alt="Logo">
+                  <img class="img-responsive" src="assets/images/logo2.png" alt="Edson Celulares logo">
                 </a>
                 <form class="search-form" action="#">
                     <input class="form-control" name="Pesquisar" type="text" placeholder="Encontre o seu celular...">
@@ -94,7 +91,7 @@
                                           </ul>
                                       </li>
                                       <li>
-                                        <img src="assets/images/phones/iphone.png" />
+                                        <img src="assets/images/phones/iphone.png" alt="iPhone X" />
                                       </li>
                                   </ul>
                               </li>
@@ -112,7 +109,7 @@
                                           </ul>
                                       </li>
                                       <li>
-                                        <img src="assets/images/phones/samsung.png" />
+                                        <img src="assets/images/phones/samsung.png" alt="Samsung Galaxy S8+" />
                                       </li>
                                   </ul>
                               </li>
@@ -129,7 +126,7 @@
                                           </ul>
                                       </li>
                                       <li>
-                                        <img src="assets/images/phones/google.jpg" />
+                                        <img src="assets/images/phones/google.jpg" alt="Google Pixel 2" />
                                       </li>
                                   </ul>
                               </li>
@@ -144,7 +141,7 @@
                                           </ul>
                                       </li>
                                       <li>
-                                        <img src="assets/images/phones/lg.png" />
+                                        <img src="assets/images/phones/lg.png" alt="LG V30" />
                                       </li>
                                   </ul>
                               </li>
@@ -160,7 +157,7 @@
                                           </ul>
                                       </li>
                                       <li>
-                                        <img src="assets/images/phones/xiaomi.png" />
+                                        <img src="assets/images/phones/xiaomi.png" alt="Xiaomi mi 6" />
                                       </li>
                                   </ul>
                               </li>
@@ -176,7 +173,7 @@
                                           </ul>
                                       </li>
                                       <li>
-                                        <img src="assets/images/phones/sony.png" />
+                                        <img src="assets/images/phones/sony.png" alt="Sony Xperia XZ2" />
                                       </li>
                                   </ul>
                               </li>
@@ -198,9 +195,9 @@
                             <br />
                             <div class="payment-card">
                                 <ul class="tr-list">
-                                    <li><img src="assets/images/others/card1.png" alt="Image" class="img-fluid"></li>
-                                    <li><img src="assets/images/others/card2.png" alt="Image" class="img-fluid"></li>
-                                    <li><img src="assets/images/others/card3.png" alt="Image" class="img-fluid"></li>
+                                    <li><img src="assets/images/others/card1.png" alt="Visa" class="img-fluid"></li>
+                                    <li><img src="assets/images/others/card2.png" alt="Mastercard" class="img-fluid"></li>
+                                    <li><img src="assets/images/others/card3.png" alt="Paypal" class="img-fluid"></li>
                                 </ul>
                             </div><!-- /.payment-card -->
                         </div>
@@ -222,16 +219,16 @@
                     <div class="row">
                       <div class="col-md-6">
                           <div class="footer-logo">
-                              <a href="index"><img src="assets/images/logo.png" alt="Logo" class="img-fluid"></a>
+                              <a href="index"><img src="assets/images/logo.png" alt="Edson Celulares logo" class="img-fluid"></a>
                           </div>
                           <span>&copy; 2018 <a href="#">Edson Celulares</a>.</span>
                           <span>Todos os Direitos Reservados</span>
                       </div><!-- /.footer-widget -->
                       <div class="col-md-6">
                           <div class="footer-logo currency">
-                              <img src="assets/images/certificate/1.png" alt="Logo" class="img-fluid">&nbsp;&nbsp;
-                              <img src="assets/images/certificate/2.png" alt="Logo" class="img-fluid">&nbsp;&nbsp;
-                              <img src="assets/images/certificate/3.png" alt="Logo" class="img-fluid">
+                              <img src="assets/images/certificate/1.png" alt="Selo Clearsale" class="img-fluid">&nbsp;&nbsp;
+                              <img src="assets/images/certificate/2.png" alt="Selo ReclameAqui" class="img-fluid">&nbsp;&nbsp;
+                              <img src="assets/images/certificate/3.png" alt="Selo e-bit" class="img-fluid">
                           </div>
                       </div><!-- /.footer-widget -->
                     </div><!-- /.row -->
@@ -247,7 +244,7 @@
         <script src="assets/js/slick.min.js"></script>
         <script src="assets/js/jquery-ui.min.js"></script>
         <script src="assets/js/jquery.spinner.min.js"></script>
-        <script src="assets/js/main.min.js"></script>
+        <script src="assets/js/widget.min.js"></script>
         <!-- endbuild -->
     </body>
 </html>
